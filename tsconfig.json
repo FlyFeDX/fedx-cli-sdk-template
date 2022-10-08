@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES5",
+        "allowJs": true,
+        "outDir": "build"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "*.md", "Makefile", "test", "test-e2e"]
+}
